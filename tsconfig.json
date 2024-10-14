@@ -1,21 +1,32 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "module": "ESNext",
-    "lib": ["es2020"],
-    "sourceMap": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "target": "ES2015",
+    "module": "CommonJS",
     "strict": true,
-    "moduleResolution": "node",
-    "baseUrl": "src",
     "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["dist", "node_modules"],
-  "compileOnSave": false
+    "moduleResolution": "node"
+  }
 }
+
+// {
+//   "compilerOptions": {
+//     "target": "es2020",
+//     "module": "Node16",
+//     "lib": ["es2020"],
+//     "sourceMap": true,
+//     "outDir": "./dist",
+//     "rootDir": "./src",
+//     "strict": true,
+//     "moduleResolution": "Node16",
+//     "baseUrl": "src",
+//     "esModuleInterop": true,
+//     "experimentalDecorators": true,
+//     "emitDecoratorMetadata": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "allowSyntheticDefaultImports": true
+//   },
+//   "include": ["src/**/*"],
+//   "exclude": ["dist", "node_modules"],
+//   "compileOnSave": false
+// }
