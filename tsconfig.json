@@ -1,32 +1,22 @@
 {
   "compilerOptions": {
-    "target": "ES2015",
-    "module": "CommonJS",
+    "target": "es2020",
+    "module": "Node16",
+    "lib": ["es2020"],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
     "strict": true,
+    "moduleResolution": "Node16",
+    "baseUrl": "src",
     "esModuleInterop": true,
-    "moduleResolution": "node"
-  }
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist", "node_modules"],
+  "compileOnSave": false
 }
-
-// {
-//   "compilerOptions": {
-//     "target": "es2020",
-//     "module": "Node16",
-//     "lib": ["es2020"],
-//     "sourceMap": true,
-//     "outDir": "./dist",
-//     "rootDir": "./src",
-//     "strict": true,
-//     "moduleResolution": "Node16",
-//     "baseUrl": "src",
-//     "esModuleInterop": true,
-//     "experimentalDecorators": true,
-//     "emitDecoratorMetadata": true,
-//     "skipLibCheck": true,
-//     "forceConsistentCasingInFileNames": true,
-//     "allowSyntheticDefaultImports": true
-//   },
-//   "include": ["src/**/*"],
-//   "exclude": ["dist", "node_modules"],
-//   "compileOnSave": false
-// }
