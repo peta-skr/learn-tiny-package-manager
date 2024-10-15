@@ -1,7 +1,7 @@
 import yargs from "yargs";
 import pm from "./index.js"; // index.tsの無名関数をインポートしている
 
-yargs
+const argv = yargs(process.argv)
   .usage("tiny-pm <command> [args]")
   .version()
   .alias("v", "version")
