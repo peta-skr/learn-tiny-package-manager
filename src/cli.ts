@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import yargs from "yargs";
 import pm from "./index.js"; // index.tsの無名関数をインポートしている
 
